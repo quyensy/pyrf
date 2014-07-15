@@ -14,7 +14,7 @@ Windows Dependencies
 1. Download https://s3.amazonaws.com/ThinkRF/Support-Resources/pyrf-dependencies.zip
 2. Extract the contents of the zipped file
 3. Install Python 2.7.6 (python-2.7.6.msi)
-4. Add the following to the windows PATH ';C:\Python27;C:\Python27\Scripts'
+4. Add the following to the windows PATH ';C:\\Python27;C:\\Python27\\Scripts'
 5. Install Numpy (numpy-1.8.1-win32-superpack-python2.7)
 6. Install Scipy (scipy-0.14.0-win32-superpack-python2.7)
 7. Install Pyside (PySide-1.2.0.win32-py2.7)
@@ -23,8 +23,9 @@ Windows Dependencies
 10. Install twisted (Twisted-14.0.0.win32-py2.7)
 11. Install pywin32 (pywin32-219.win32-py2.7)
 12. Using a command line, go to the qtreactor-qtreactor-pyrf-1.0 folder, and type 'setup.py install'
-13. Obtain PyRF source code from https://github.com/pyrf/pyrf
-14. Go the pyrf directory and run 'setup.py install'
+13. Download setuptools at https://pypi.python.org/pypi/setuptools#downloads; extract the content & go into the setuptools folder, and type 'setup.py install' 
+14. Obtain PyRF source code from https://github.com/pyrf/pyrf
+15. Go the pyrf directory and run 'setup.py install'
 
 Debian/Ubuntu Dependencies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
